@@ -1,23 +1,25 @@
 <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none"
     xmlns="http://www.w3.org/2000/svg">
-    <g clip-path="url(#clip0_2_17)">
-        <rect width="1440" height="1024" fill="white" />
+
         <circle cx="475" cy="361" r="50" fill="#1E1E1E" />
-        <path
+        <path id="track"
             d="M1615.63 345.22C1615.35 406.461 1586.39 464.875 1533.84 518.108C1481.27 571.352 1405.22 619.284 1311.14 659.452C1122.99 739.785 863.164 788.872 576.296 787.549C289.428 786.227 30.0691 734.746 -157.337 652.681C-251.044 611.647 -326.648 563.017 -378.718 509.29C-430.777 455.575 -459.2 396.897 -458.917 335.656C-458.635 274.415 -429.673 216.001 -377.121 162.768C-324.557 109.524 -248.508 61.5926 -154.427 21.4243C33.7282 -58.9086 293.551 -107.996 580.419 -106.673C867.287 -105.351 1126.65 -53.8698 1314.05 28.1946C1407.76 69.2286 1483.36 117.859 1535.43 171.586C1587.49 225.301 1615.91 283.979 1615.63 345.22Z"
             stroke="#1E1E1E" stroke-width="5" />
         <line x1="477.249" y1="359.907" x2="683.249" y2="783.907" stroke="#1E1E1E" stroke-width="5" />
         <line x1="475.85" y1="358.649" x2="1299.85" y2="656.649" stroke="#1E1E1E" stroke-width="5" />
         <line x1="475.066" y1="358.501" x2="1610.07" y2="388.501" stroke="#1E1E1E" stroke-width="5" />
-        <circle cx="1299" cy="659" r="80" fill="#1E1E1E" />
-        <circle cx="680.5" cy="784.5" r="102.5" fill="#1E1E1E" />
+        <circle r="80" fill="#1E1E1E"> 
+            <animateMotion begin=".6" dur="5s" repeatCount="indefinite">
+                <mpath href="#track" />
+            </animateMotion>
+        </circle>
+        <circle r="102.5"  fill="#1E1E1E"> 
+            <animateMotion begin="0.5" to="0.9" dur="5s" repeatCount="indefinite" autoReverse="1" >
+                <mpath href="#track" />
+            </animateMotion>
+        </circle>
         <rect x="50" y="687" width="100" height="100" fill="#D9D9D9" />
         <rect x="633" y="739" width="100" height="100" fill="#D9D9D9" />
         <rect x="1259" y="616" width="100" height="100" fill="#D9D9D9" />
-    </g>
-    <defs>
-        <clipPath id="clip0_2_17">
-            <rect width="1440" height="1024" fill="white" />
-        </clipPath>
-    </defs>
+
 </svg>
